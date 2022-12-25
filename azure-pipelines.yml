@@ -4,7 +4,6 @@ trigger:
   tags:
     include: ['*']
 
-
 jobs:
 - template: job--python-tox.yml
   parameters:
