@@ -1,7 +1,7 @@
 trigger: 
   branches:
     include: 
-      - refs/heads/test/*
+      - refs/heads/main/*
 
 variables:
   GIT_COMMIT: $(Build.SourceVersion)
